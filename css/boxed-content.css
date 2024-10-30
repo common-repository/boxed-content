@@ -1,0 +1,19 @@
+/* Box CSS */
+.box, .coupon, .color-box {
+  display: table;
+  width: 100%;
+  margin-bottom: 1em; }
+  .box .col, .coupon .col, .color-box .col {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-bottom: 0; }
+  .box .columns, .coupon .columns, .color-box .columns {
+    margin-left: 0; }
+  .box h2, .box h3, .box h4, .box p, .coupon h2, .coupon h3, .coupon h4, .coupon p, .color-box h2, .color-box h3, .color-box h4, .color-box p {
+    margin: 0.5em 1em; }
+  .box hr, .coupon hr, .color-box hr {
+    margin: 0;
+    padding: 0; }
+  .box img, .coupon img, .color-box img {
+    width: 100%; }
